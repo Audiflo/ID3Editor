@@ -11,7 +11,7 @@
     "make-pretty": "prettier --write src/"
   },
   "dependencies": {
-    "@vite-pwa/assets-generator": "^1.0.0",
+    "@vite-pwa/assets-generator": "^1.0.4",
     "browser-id3-writer": "^6.3.1",
     "eruda": "^3.4.3",
     "lucide-react": "^0.556.0",
