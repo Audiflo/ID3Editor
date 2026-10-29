@@ -1,0 +1,2 @@
+import{W as e,u as t}from"./BasicParser-DbY6UiEU.js";import{n,t as r}from"./TokenizerView-BtjhHsn1.js";import{r as i}from"./ID3v2Token-CgqOeeRg.js";import{n as a,t as o}from"./ID3v2Parser-Om2laEWj.js";async function s(s,c,l,u){if(t(u,l),u<i.len||c.fileInfo.size!==void 0&&u>c.fileInfo.size-c.position)throw new e;let d=r(c,u);try{await new o().parse(s,d,l),await d.consumeRemainder()}catch(e){throw e instanceof n?new a(`Embedded ID3v2 read exceeds chunk boundary: ${e.message}`):e}finally{await d.close()}}export{s as t};
+//# sourceMappingURL=EmbeddedID3v2-sV44v9ae.js.map
